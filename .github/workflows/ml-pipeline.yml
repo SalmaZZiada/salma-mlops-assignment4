@@ -20,7 +20,7 @@ jobs:
 
       - name: Linter Check
         run: echo "running linter"
-        
+
       - name: Model Dry Test
         run: |
           python -c "import torch; print('Model environment ready!')"
